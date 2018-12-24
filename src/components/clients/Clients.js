@@ -13,7 +13,7 @@ class Clients extends Component {
             balance: '30'
         },
         {
-            id: '4242523523',
+            id: '4242453523',
             firstName: 'Bob',
             lastName: 'Blabla',
             email: 'kevin@gmail.com',
