@@ -46,6 +46,8 @@ class AddClient extends Component {
                                         name="firstName"
                                         minLength="2"
                                         required
+                                        onChange={this.onChange}
+                                        value={this.state.firstName}
                                     />
                                 </div>
                             </form>
