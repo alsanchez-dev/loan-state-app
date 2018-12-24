@@ -47,8 +47,15 @@ class ClientDetails extends Component {
                                     <h3 className="pull-right">
                                     Balance: ${parseFloat(client.balance).toFixed(2)}
                                     </h3>
+                                    {/* @todo - balanceform */}
                                 </div>
                             </div>
+
+                            <hr/>
+                            <ul className="list-group">
+                                <li className="list-group-item">Contact Email: {client.email}</li>
+                                <li className="list-group-item">Contact Phone: {client.phone}</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
