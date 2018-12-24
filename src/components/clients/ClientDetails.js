@@ -90,7 +90,7 @@ onChange = e => this.setState({ [e.target.name]: e.target.value });
                     </div>
                     <hr />
                     <div className="card">
-                        <h3 className="card-header">
+                        <h3 className="card-header"> 
                             {client.firstName} {client.lastName}
                         </h3>
                         <div className="card-body">
