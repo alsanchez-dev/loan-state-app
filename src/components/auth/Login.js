@@ -77,8 +77,8 @@ class Login extends Component {
     }
 }
 
-Login.propType = {
+Login.propTypes = {
     firebase: PropTypes.object.isRequired
-}
+};
 
 export default firebaseConnect()(Login);
