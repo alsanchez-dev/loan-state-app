@@ -7,7 +7,7 @@ import {
 
 export const setDisableBalanceOnAdd = () => {
     return {
-        type: DISABLE_BALANCE_ON_ADD
+        type: DISABLE_BALANCE_ON_ADD  
     }
 }
 

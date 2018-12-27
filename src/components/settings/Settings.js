@@ -34,7 +34,7 @@ class Settings extends Component {
                 <div className="row">
                     <div className="col-md-6">
                         <Link to="/" className="btn btn-link">
-                            <i class="fas fa-arrow-circle-left" /> Back To Dashboard
+                            <i className="fas fa-arrow-circle-left" /> Back To Dashboard
                         </Link>
                     </div>
                 </div>
@@ -87,9 +87,10 @@ Settings.propTypes = {
     setAllowRegistration: PropTypes.func.isRequired
 }
 
-export default connect((state, props)=>({
-    auth: state.firebase.auth,
-    settings: state.settings
-}),
-{setAllowRegistration, setDisableBalanceOnAdd, setDisableBalanceOnEdit}
+export default connect(
+    (state, props)=>({
+        auth: state.firebase.auth,
+        settings: state.settings
+    }),
+    {setAllowRegistration, setDisableBalanceOnAdd, setDisableBalanceOnEdit}
 )(Settings);

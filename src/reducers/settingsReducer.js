@@ -16,7 +16,7 @@ export default function(state = initialState, action){
             return {
                 ...state,
                 disableBalanceOnAdd: !state.disableBalanceOnAdd
-            }
+            };
         case DISABLE_BALANCE_ON_EDIT:
             return {
                 ...state,
